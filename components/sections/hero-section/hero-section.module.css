@@ -1,0 +1,149 @@
+.container {
+  background: url("/images/hero-bg.jpg") no-repeat center center/ cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+@media screen and (max-width: 1130px) {
+  .container {
+    padding-top: 20%;
+    padding-bottom: 4%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .container {
+    padding-top: 25%;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .container {
+    padding-top: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-top: 20%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .container {
+    padding-top: 25%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .container {
+    padding-top: 30%;
+  }
+}
+
+.container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1130px) {
+  .container > div {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1130px) {
+  .content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.title {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 3.313rem;
+  line-height: 58px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 1130px) {
+  .title {
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+  margin: 21px 0 32px 0;
+  max-width: 511px;
+}
+
+@media screen and (max-width: 1130px) {
+  .subtitle {
+    max-width: unset;
+  }
+}
+
+.appointment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 455px;
+  background: #ffffff;
+  border-radius: 15px;
+  gap: 16px;
+  padding: 29px 40px 39px;
+}
+
+@media screen and (max-width: 550px) {
+  .appointment {
+    width: 100%;
+  }
+}
+
+.formtitle {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 1.563rem;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.appointment button {
+  margin-top: 18px;
+}

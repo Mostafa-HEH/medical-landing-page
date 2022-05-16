@@ -1,0 +1,32 @@
+.department {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 9px;
+  max-width: 120px;
+}
+
+.departmenticon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 0px 15px;
+}
+
+.departmentname {
+  font-weight: 400;
+  font-size: 1.063rem;
+  line-height: 28px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .departmentname {
+    font-size: 1rem;
+  }
+}
