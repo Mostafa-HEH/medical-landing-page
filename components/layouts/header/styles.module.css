@@ -1,0 +1,158 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 5px solid #ed1b24;
+}
+
+.wrapper {
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    padding: 0 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    padding: 0 16px;
+  }
+}
+
+.header .wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 164px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    position: absolute;
+    top: -100px;
+    left: 16px;
+  }
+}
+
+.menuicon {
+  display: none;
+  background-color: #ed1b24;
+  width: 38px;
+  color: #fff;
+  margin: 42px 0;
+  cursor: pointer;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  .menuicon {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menuicon {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    margin: 0;
+  }
+}
+
+.closeicon {
+  display: none;
+  color: #fff;
+  width: 38px;
+  align-self: center;
+}
+
+@media screen and (max-width: 850px) {
+  .closeicon {
+    display: block;
+  }
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 46px;
+  margin: 42px 0;
+}
+
+@media screen and (max-width: 850px) {
+  .navlinks {
+    flex-direction: column;
+    background-color: #ed1b24;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 64px 16px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    transform: translateX(110%);
+    transition: transform 0.4s ease-in;
+  }
+  .active {
+    transform: translateX(0);
+  }
+}
+
+.links {
+  list-style: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #ffffff;
+  gap: 24px;
+}
+
+.links li {
+  transition: color 0.1s ease-in;
+}
+
+.links li:hover {
+  color: #ed1b24;
+}
+
+@media screen and (max-width: 850px) {
+  .links {
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+}
+
+.phone {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 26px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+}
+
+.phone svg {
+  width: 22px;
+}
