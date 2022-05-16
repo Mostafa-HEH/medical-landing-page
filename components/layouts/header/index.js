@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Link from "next/link";
 
+import Wrapper from "../wrapper";
+
 import PhoneIcon from "../../icons/phone";
 import MenuIcon from "../../icons/menu";
 import CloseIcon from "../../icons/close";
@@ -20,7 +22,7 @@ const Header = () => {
 
   return (
     <header className={classes.header}>
-      <div className={classes.wrapper}>
+      <Wrapper>
         <Link href="/">
           <a className={classes.logo}>
             <img src="/images/logo.png" />
@@ -57,7 +59,7 @@ const Header = () => {
             <span>1800 789 123</span>
           </a>
         </nav>
-      </div>
+      </Wrapper>
     </header>
   );
 };

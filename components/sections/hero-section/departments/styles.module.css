@@ -1,0 +1,14 @@
+.departments {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 45px;
+}
+
+@media screen and (max-width: 550px) {
+  .departments {
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
