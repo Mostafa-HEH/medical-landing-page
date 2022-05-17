@@ -1,0 +1,30 @@
+.container {
+  background-color: #ed1b24;
+  min-height: 180px;
+  display: flex;
+  padding: 32px 0;
+}
+
+.container > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.counters {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 135px;
+  list-style: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 970px) {
+  .counters {
+    gap: 32px;
+  }
+}
