@@ -6,6 +6,7 @@ import HeroSection from "../components/sections/hero-section";
 import CounterSection from "../components/sections/counter-section";
 import FeatursSection from "../components/sections/featurs-section";
 import DividerSection from "../components/sections/divider-section";
+import ServicesSection from "../components/sections/services-section";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <CounterSection />
       <FeatursSection />
       <DividerSection />
+      <ServicesSection />
     </Fragment>
   );
 };
