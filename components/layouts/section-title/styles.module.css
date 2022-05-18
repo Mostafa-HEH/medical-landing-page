@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 604px;
+  margin: auto;
+  gap: 11px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 1.063rem;
+  line-height: 20px;
+  letter-spacing: 0.15em;
+  color: #555555;
+}
+
+.title {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
