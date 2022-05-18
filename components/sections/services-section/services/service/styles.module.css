@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 248px;
+  gap: 13px;
+}
+
+.name {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 1.188rem;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.813rem;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #555555;
+}
