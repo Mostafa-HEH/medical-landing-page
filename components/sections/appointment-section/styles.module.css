@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.625rem;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+}
+
+.spcial {
+  text-decoration: underline;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+}
+
+.container button {
+  width: 240px;
+}

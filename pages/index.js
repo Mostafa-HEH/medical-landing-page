@@ -9,6 +9,7 @@ import DividerSection from "../components/sections/divider-section";
 import ServicesSection from "../components/sections/services-section";
 import ReviewsSection from "../components/sections/reviews-section";
 import AdSection from "../components/sections/ad-section";
+import Appointment from "../components/sections/appointment-section";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <ServicesSection />
       <ReviewsSection />
       <AdSection />
+      <Appointment />
     </Fragment>
   );
 };
