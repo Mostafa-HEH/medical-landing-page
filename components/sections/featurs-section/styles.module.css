@@ -1,0 +1,17 @@
+.container > div {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 87px;
+}
+
+.featurscontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+}
+
+.featurscontainer > div:nth-child(even) {
+  flex-direction: row-reverse;
+}
