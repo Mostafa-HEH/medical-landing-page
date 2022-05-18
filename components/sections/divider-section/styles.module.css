@@ -1,0 +1,31 @@
+.container {
+  min-height: 170px;
+  background: #ed1b24;
+  display: flex;
+  align-items: center;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.container h3 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.container p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 21px;
+  color: #ffffff;
+}

@@ -5,6 +5,7 @@ import Link from "next/link";
 import HeroSection from "../components/sections/hero-section";
 import CounterSection from "../components/sections/counter-section";
 import FeatursSection from "../components/sections/featurs-section";
+import DividerSection from "../components/sections/divider-section";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <HeroSection />
       <CounterSection />
       <FeatursSection />
+      <DividerSection />
     </Fragment>
   );
 };
