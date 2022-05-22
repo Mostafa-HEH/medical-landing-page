@@ -1,0 +1,15 @@
+.container {
+  background: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.813rem;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 62px;
+  padding: 16px 0;
+}

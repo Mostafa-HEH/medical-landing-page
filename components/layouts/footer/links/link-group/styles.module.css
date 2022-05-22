@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.head {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li a,
+.other * {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 28px;
+  color: #555555;
+  margin: 0;
+}
+
+.inlineicons {
+  display: inline-block;
+  margin: 0 5px;
+}

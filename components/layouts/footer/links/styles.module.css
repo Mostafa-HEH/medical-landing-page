@@ -1,0 +1,25 @@
+.container {
+  min-height: 325px;
+  display: flex;
+  align-items: center;
+}
+
+.container > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 730px) {
+  .container > div {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .container > div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
