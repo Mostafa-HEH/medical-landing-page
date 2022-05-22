@@ -1,0 +1,28 @@
+.container {
+  background-color: #fafafa;
+  min-height: 132px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > div {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+@media screen and (max-width: 730px) {
+  .container > div {
+    grid-template-columns: repeat(2, auto);
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .container > div {
+    grid-template-columns: repeat(1, auto);
+  }
+}

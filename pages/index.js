@@ -9,6 +9,7 @@ import ReviewsSection from "../components/sections/reviews-section";
 import AdSection from "../components/sections/ad-section";
 import Appointment from "../components/sections/appointment-section";
 import MapSection from "../components/sections/map-section";
+import ContactSection from "../components/sections/contact-section";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
       <AdSection />
       <Appointment />
       <MapSection />
+      <ContactSection />
     </Fragment>
   );
 };
