@@ -149,6 +149,8 @@
     position: fixed;
     transform: translateX(110%);
     transition: transform 0.4s ease-in;
+    height: 100vh;
+    margin-top: 0 !important;
   }
   .active {
     transform: translateX(0);

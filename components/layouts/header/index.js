@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 import Wrapper from "../wrapper";
 
@@ -49,7 +48,7 @@ const Header = () => {
       <Wrapper>
         <Link href="/">
           <a className={classes.logo}>
-            <Image src="/images/logo.png" alt="midial logo" />
+            <img src="/images/logo.png" />
           </a>
         </Link>
         <span className={classes.menuicon} onClick={handleMenuIcon}>

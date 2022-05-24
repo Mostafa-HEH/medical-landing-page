@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Button from "../../../layouts/button";
 
 import CheckedIcon from "../../../icons/checked";
@@ -10,7 +8,7 @@ const Feature = ({ name, provieds, image }) => {
   return (
     <div className={classes.container}>
       <div className={classes.imagecontainer}>
-        <Image src={image} alt={name} />
+        <img src={image} alt={name} />
       </div>
       <div className={classes.contentcontainer}>
         <h4 className={classes.name}>{name}</h4>
