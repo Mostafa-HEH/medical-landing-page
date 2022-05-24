@@ -10,8 +10,9 @@ const ServicesSection = () => {
       <Wrapper>
         <SectionsTitle subtitle="SERVICES" title="Our Medical Service " />
         <p className={classes.sectiondescription}>
-          We're different from typical health checkup center. We're out to
-          create magic. The goal is to WOW you with outstanding treatment.
+          We&apos;re different from typical health checkup center. We&apos;re
+          out to create magic. The goal is to WOW you with outstanding
+          treatment.
         </p>
         <Services />
       </Wrapper>

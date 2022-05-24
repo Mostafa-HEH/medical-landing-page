@@ -19,7 +19,7 @@ const HeroSection = () => {
         </div>
         <form className={classes.appointment}>
           <h4 className={classes.formtitle}>
-            Sydney's #1 Medical Treatment Service Center.
+            Sydney&apos;s #1 Medical Treatment Service Center.
           </h4>
           <InputField type="text" placeholder="First Name" />
           <InputField type="text" placeholder="Last Name" />

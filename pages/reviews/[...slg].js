@@ -14,7 +14,8 @@ const Review = () => {
     return (
       <div>
         <h1>This is {displayReviews[0]} reviews</h1>
-        This page isn't completed because of "this it just for practice project"
+        This page isn&apos;t completed because of &quot;this it just for
+        practice project&quot;
         <br />
         <Link href="/reviews/2021/1">Get 2021 Reviews</Link>
       </div>
