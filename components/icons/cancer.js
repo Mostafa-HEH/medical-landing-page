@@ -11,9 +11,7 @@ const CancerIcon = () => {
       <path
         d="M62 45.5H55.2L50.1 61L39.9 30L34.8 45.5H28"
         stroke="#ED1B24"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
       />
     </svg>
   );
