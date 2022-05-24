@@ -16,11 +16,12 @@ const FeatureReviews = () => {
     return (
       <div>
         <h1>
-          This features reviews page for feature "{feature}"
+          This features reviews page for feature &quot;{feature}&quot;
           <br />
-          Used this users wich have id "{reviews}"
+          Used this users wich have id &quot;{reviews}&quot;
         </h1>
-        This page isn't completed because of "this it just for practice project"
+        This page isn&apos;t completed because of &quot;this it just for
+        practice project&quot;
       </div>
     );
   } else {

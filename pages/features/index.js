@@ -4,7 +4,8 @@ const Features = () => {
   return (
     <div>
       <h1>This features page</h1>
-      This page isn't completed because of "this it just for practice project"
+      This page isn'&apos; completed because of &quot;this it just for practice
+      project&quot;
       <h1>Featurs</h1>
       <ul>
         <li>

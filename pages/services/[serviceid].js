@@ -13,7 +13,8 @@ const ServiceReview = () => {
   return (
     <div>
       <h1>This services review page for {service ? service : "Loading..."}</h1>
-      This page isn't completed because of "this it just for practice project"
+      This page isn&apos;t completed because of &quot;this it just for practice
+      project&quot;
     </div>
   );
 };
